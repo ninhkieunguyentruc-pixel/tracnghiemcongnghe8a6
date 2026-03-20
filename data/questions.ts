@@ -1,222 +1,61 @@
 import type { Question } from '../types';
 
 export const questions: Question[] = [
-  // Bài 1: Bản vẽ kĩ thuật
-  {
-    question: "Kích thước trên bản vẽ kĩ thuật có đơn vị là gì?",
-    options: ["mm", "dm", "cm", "Tùy từng bản vẽ"],
-    correctAnswer: 0,
-  },
-  {
-    question: "Trước con số chỉ kích thước đường tròn, người ta ghi kí hiệu gì?",
-    options: ["d", "R", "Ø", "O"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Khổ giấy A4 có kích thước tính theo mm là:",
-    options: ["420 × 210", "279 × 297", "420 × 297", "297 × 210"],
-    correctAnswer: 3,
-  },
-  {
-    question: "Đâu là tỉ lệ nguyên hình trong các tỉ lệ sau?",
-    options: ["1 : 2", "5 : 1", "1 : 1", "5 : 2"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Đường gióng và đường kích thước được biểu diễn:",
-    options: ["song song", "vuông góc", "trùng nhau", "đáp án khác"],
-    correctAnswer: 1,
-  },
-  {
-    question: "Để vẽ đường tâm, đường trục đối xứng, cần dùng loại nét vẽ nào?",
-    options: ["Nét liền đậm", "Nét liền mảnh", "Nét đứt mảnh", "Nét gạch dài - chấm - mảnh"],
-    correctAnswer: 3,
-  },
-  {
-    question: "x : 1 là kí hiệu của loại tỉ lệ nào? (x > 1)",
-    options: ["Thu nhỏ", "Phóng to", "Nguyên hình", "Cả 3 đáp án trên"],
-    correctAnswer: 1,
-  },
-  {
-    question: "Phát biểu nào sau đây sai?",
-    options: [
-      "Nét liền mảnh biểu diễn đường gióng",
-      "Nét liền đậm biểu diễn đường bao thấy",
-      "Nét gạch dài chấm mảnh biểu diễn đường tâm",
-      "Nét liền đậm biểu diễn đường trục đối xứng"
-    ],
-    correctAnswer: 3,
-  },
-  {
-    question: "Phát biểu nào sau đây về đường kích thước là đúng?",
-    options: [
-      "Đường kích thước thẳng đứng, con số kích thước ghi bên phải",
-      "Đường kích thước nằm ngang, con số kích thước ghi bên trên",
-      "Đường kích thước nằm nghiêng, con số kích thước ghi bên dưới",
-      "Ghi kí hiệu R trước con số chỉ kích thước đường kính đường tròn"
-    ],
-    correctAnswer: 1,
-  },
-  {
-    question: "Nét liền mảnh thể hiện:",
-    options: ["Đường kích thước, đường gióng", "Cạnh thấy, đường bao thấy", "Đường tâm, đường trục", "Cả 3 đáp án trên"],
-    correctAnswer: 0,
-  },
-  {
-    question: "Từ khổ giấy A1 ta chia được mấy khổ giấy A4?",
-    options: ["2", "4", "8", "16"],
-    correctAnswer: 2,
-  },
-  // Bài 2: Hình chiếu
-  {
-    question: "Phép chiếu vuông góc là phép chiếu có các tia chiếu:",
-    options: [
-      "Song song với mặt phẳng cắt",
-      "Song song với nhau",
-      "Cùng đi qua một điểm",
-      "Song song với nhau và vuông góc với mặt phẳng chiếu"
-    ],
-    correctAnswer: 3,
-  },
-  {
-    question: "Mặt phẳng thẳng đứng ở chính diện gọi là:",
-    options: ["Mặt phẳng hình chiếu đứng", "Mặt phẳng hình chiếu bằng", "Mặt phẳng hình chiếu cạnh", "Mặt phẳng hình chiếu"],
-    correctAnswer: 0,
-  },
-  {
-    question: "Có mấy loại phép chiếu?",
-    options: ["1", "2", "3", "4"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Điểm A của vật thể có hình chiếu là điểm A’ trên mặt phẳng. Vậy A A’ gọi là:",
-    options: ["Đường thẳng chiếu", "Tia chiếu", "Đường chiếu", "Đoạn chiếu"],
-    correctAnswer: 1,
-  },
-  {
-    question: "Khi chiếu một vật thể lên một mặt phẳng, hình nhận được trên mặt phẳng đó gọi là:",
-    options: ["hình chiếu", "vật chiếu", "mặt phẳng chiếu", "vật thể"],
-    correctAnswer: 0,
-  },
-  {
-    question: "Để thể hiện đầy đủ khối đa diện, người ta thường dùng mấy hình chiếu?",
-    options: ["1", "2", "3", "4"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Bản vẽ kĩ thuật sử dụng phép chiếu nào để biểu diễn vật thể?",
-    options: ["Phép chiếu song song", "Phép chiếu xuyên tâm", "Phép chiếu vuông góc", "Cả ba đáp án trên"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Để nhận được hình chiếu đứng, cần chiếu vuông góc vật thể theo hướng chiếu nào?",
-    options: ["từ trước vào", "từ trên xuống dưới", "từ trái sang phải", "từ phải sang trái"],
-    correctAnswer: 0,
-  },
-  {
-    question: "Vị trí các hình chiếu trên bản vẽ được biểu diễn là:",
-    options: [
-      "Hình chiếu bằng ở dưới hình chiếu đứng, hình chiếu cạnh ở bên phải hình chiếu đứng",
-      "Hình chiếu bằng ở trên hình chiếu đứng, hình chiếu cạnh ở bên trái hình chiếu đứng",
-      "Hình chiếu cạnh ở bên phải hình chiếu đứng, hình chiếu bằng ở bên trái hình chiếu đứng",
-      "Hình chiếu đứng ở dưới hình chiếu bằng, hình chiếu cạnh ở bên phải hình chiếu bằng"
-    ],
-    correctAnswer: 0,
-  },
-  {
-    question: "Khối đa diện được bao bởi:",
-    options: ["Các hình chữ nhật", "Các hình tam giác cân", "Các hình trụ", "Các hình đa giác phẳng"],
-    correctAnswer: 3,
-  },
-  {
-    question: "Hình chiếu bằng của hình lăng trụ tam giác đều là hình gì?",
-    options: ["Hình tam giác đều", "Hình tam giác cân", "Hình chữ nhật", "Hình vuông"],
-    correctAnswer: 0,
-  },
-  // Bài 3: Bản vẽ chi tiết và bản vẽ lắp
-  {
-    question: "Phần khung tên của bản vẽ chi tiết gồm những thông tin gì?",
-    options: ["Tên gọi", "Vật liệu chế tạo", "Tỉ lệ", "Cả ba đáp án trên"],
-    correctAnswer: 3,
-  },
-  {
-    question: "Người công nhân căn cứ vào đâu để chế tạo chi tiết máy đúng như yêu cầu của người thiết kế?",
-    options: ["Bản vẽ chi tiết", "Bản vẽ lắp", "Bản vẽ nhà", "Cả ba đáp án trên"],
-    correctAnswer: 0,
-  },
-  {
-    question: "Công dụng của bản vẽ chi tiết là:",
-    options: ["Dùng để chế tạo chi tiết máy", "Dùng để kiểm tra chi tiết máy", "Dùng để chế tạo và kiểm tra chi tiết máy", "Đáp án khác"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Nội dung phần yêu cầu kĩ thuật của bản vẽ chi tiết gồm:",
-    options: ["Chỉ dẫn về gia công", "Chỉ dẫn về xử lí bề mặt", "Cả A và B đều đúng", "Cả A và B đều sai"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Trình tự đọc bản vẽ chi tiết là:",
-    options: [
-      "Khung tên, hình biểu diễn, kích thước, yêu cầu kĩ thuật",
-      "Khung tên, kích thước, hình biểu diễn, yêu cầu kĩ thuật",
-      "Hình biểu diễn, khung tên, kích thước, yêu cầu kĩ thuật",
-      "Hình biểu diễn, kích thước, khung tên, yêu cầu kĩ thuật"
-    ],
-    correctAnswer: 0,
-  },
-  {
-    question: "Bản vẽ chi tiết thuộc lĩnh vực nào?",
-    options: ["Bản vẽ cơ khí", "Bản vẽ xây dựng", "Bản vẽ lắp", "Bản vẽ nhà"],
-    correctAnswer: 0,
-  },
-  {
-    question: "Phần nào trong bản vẽ thể hiện đầy đủ hình dạng của chi tiết?",
-    options: ["Khung tên", "Hình biểu diễn", "Kích thước", "Yêu cầu kĩ thuật"],
-    correctAnswer: 1,
-  },
-  {
-    question: "Chọn phát biểu đúng:",
-    options: [
-      "Bản vẽ chi tiết gồm hình biểu diễn, kích thước, yêu cầu kĩ thuật",
-      "Bản vẽ chi tiết chỉ dùng để chế tạo chi tiết",
-      "Đọc bản vẽ chi tiết cần phải nhận biết chính xác, đầy đủ nội dung và tuân theo trình tự nhất định",
-      "Trình tự đọc bản vẽ chi tiết là: hình biểu diễn, kích thước, yêu cầu kĩ thuật, khung tên"
-    ],
-    correctAnswer: 2,
-  },
-  {
-    question: "Đâu là nội dung của bản vẽ lắp?",
-    options: [
-      "Khung tên, bảng kê, hình biểu diễn, kích thước",
-      "Khung tên, hình biểu diễn, kích thước, yêu cầu kĩ thuật",
-      "Khung tên, các hình biểu diễn, kích thước",
-      "Khung tên, bảng kê, hình biểu diễn, kích thước, yêu cầu kĩ thuật"
-    ],
-    correctAnswer: 0,
-  },
-  {
-    question: "Phần tổng hợp trong trình tự đọc bản vẽ lắp gồm những nội dung nào?",
-    options: ["Tên sản phẩm, tỉ lệ bản vẽ, nơi thiết kế", "Các hình chiếu, hình cắt", "Trình tự tháo, lắp chi tiết và công dụng", "Tên gọi các chi tiết, số lượng, vật liệu"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Bản vẽ lắp không có nội dung nào so với bản vẽ chi tiết?",
-    options: ["Hình biểu diễn", "Yêu cầu kĩ thuật", "Kích thước", "Khung tên"],
-    correctAnswer: 1,
-  },
-  {
-    question: "So với bản vẽ chi tiết, bản vẽ lắp có thêm nội dung nào dưới đây?",
-    options: ["Yêu cầu kĩ thuật", "Bảng kê", "Kích thước", "Khung tên"],
-    correctAnswer: 1,
-  },
-  {
-    question: "Trình tự đọc bản vẽ lắp là gì?",
-    options: [
-      "Hình biểu diễn → Khung tên → Bảng kê → Kích thước → Phân tích chi tiết → Tổng hợp",
-      "Khung tên → Bảng kê → Kích thước → Hình biểu diễn → Phân tích chi tiết → Tổng hợp",
-      "Khung tên → Bảng kê → Hình biểu diễn → Kích thước → Phân tích chi tiết → Tổng hợp",
-      "Khung tên → Kích thước → Bảng kê → Hình biểu diễn → Phân tích chi tiết → Tổng hợp"
-    ],
-    correctAnswer: 2,
-  },
+{ id: 1, category: QuizCategory.ELECTRIC, q: "Hành vi vi phạm hành lang an toàn lưới điện cao áp là:", a: { A: "Trú mưa dưới gốc cây to", B: "Vứt rác thải gần cột điện", C: "Di chuyển ngoài đường mùa mưa bão", D: "Trồng cây cao quá quy định trong hành lang an toàn" }, c: "D" },
+{ id: 2, category: QuizCategory.ELECTRIC, q: "Các nguồn điện thường dùng là:", a: { A: "Pin, ắc quy, lưới điện", B: "Đường dây tải điện, lưới điện", C: "Máy phát điện, pin, hiệu điện thế", D: "Pin mặt trời, máy phát điện, điện áp" }, c: "A" },
+{ id: 3, category: QuizCategory.ELECTRIC, q: "Hành vi vi phạm khoảng cách an toàn là:", a: { A: "Xây dựng vi phạm hành lang", B: "Trèo cột điện, vào trạm biến áp", C: "Thả diều ngoài bãi trống", D: "Cả A và C" }, c: "B" },
+{ id: 4, category: QuizCategory.ELECTRIC, q: "Chức năng của cảm biến là:", a: { A: "Cảm nhận và biến đổi tín hiệu", B: "Đóng cắt điện", C: "Xử lí tín hiệu", D: "Dẫn điện" }, c: "A" },
+{ id: 5, category: QuizCategory.MECHANICAL, q: "Vai trò của cơ khí là:", a: { A: "Tăng năng suất lao động", B: "Làm con người lười", C: "Gây khó khăn", D: "Giảm năng suất" }, c: "A" },
+{ id: 6, category: QuizCategory.MECHANICAL, q: "Vai trò của cơ khí trong sản xuất:", a: { A: "Tăng năng suất, giảm chi phí", B: "Không có vai trò", C: "Chỉ giải trí", D: "Chỉ công cụ đơn giản" }, c: "A" },
+{ id: 7, category: QuizCategory.ELECTRIC, q: "Thiết bị biến điện năng thành nhiệt năng:", a: { A: "Đèn huỳnh quang", B: "Quạt điện", C: "Camera", D: "Nồi cơm điện" }, c: "D" },
+{ id: 8, category: QuizCategory.ELECTRIC, q: "Vai trò mạch điều khiển:", a: { A: "Truyền điện", B: "Cung cấp điện", C: "Biến đổi năng lượng", D: "Điều khiển thiết bị" }, c: "D" },
+{ id: 9, category: QuizCategory.MECHANICAL, q: "Truyền động xa, không trượt:", a: { A: "Vít-đai ốc", B: "Bánh răng", C: "Đai", D: "Xích" }, c: "D" },
+{ id: 10, category: QuizCategory.MECHANICAL, q: "Cơ cấu tay quay thanh lắc:", a: { A: "Quay → tịnh tiến", B: "Tịnh tiến → quay", C: "Lắc → tịnh tiến", D: "Quay → lắc" }, c: "D" },
+
+{ id: 11, category: QuizCategory.ELECTRIC, q: "Đặc điểm dây dẫn điện:", a: { A: "Cung cấp năng lượng", B: "Kết nối mạch", C: "Tiêu thụ điện", D: "Bảo vệ mạch" }, c: "B" },
+{ id: 12, category: QuizCategory.ELECTRIC, q: "Tưới cây tự động dùng cảm biến:", a: { A: "Độ ẩm", B: "Nhiệt độ", C: "Hồng ngoại", D: "Ánh sáng" }, c: "A" },
+{ id: 13, category: QuizCategory.ELECTRIC, q: "Không chạm kim loại bút thử điện:", a: { A: "Hỏng", B: "Cháy", C: "Vẫn sáng", D: "Không sáng" }, c: "D" },
+{ id: 14, category: QuizCategory.ELECTRIC, q: "Chức năng cảm biến:", a: { A: "Cấp điện", B: "Biến tín hiệu vật lí thành điện", C: "Thực hiện hành động", D: "Hiển thị" }, c: "B" },
+{ id: 15, category: QuizCategory.ELECTRIC, q: "Cảm biến hồng ngoại:", a: { A: "Gas", B: "Hồng ngoại", C: "Ánh sáng", D: "Âm thanh" }, c: "B" },
+{ id: 16, category: QuizCategory.ELECTRIC, q: "Bộ phận cung cấp năng lượng:", a: { A: "Điều khiển", B: "Tải", C: "Nguồn điện", D: "Dây dẫn" }, c: "C" },
+{ id: 17, category: QuizCategory.MECHANICAL, q: "Cơ cấu quay → tịnh tiến:", a: { A: "Đai", B: "Tay quay con trượt", C: "Xích", D: "Bánh răng" }, c: "B" },
+{ id: 18, category: QuizCategory.MECHANICAL, q: "Ngành tự động hóa:", a: { A: "Hóa học", B: "Xây dựng", C: "Môi trường", D: "Cơ điện tử" }, c: "D" },
+{ id: 19, category: QuizCategory.ELECTRIC, q: "Vai trò khối điều khiển:", a: { A: "Chiếu sáng", B: "Cấp điện", C: "Nối mạch", D: "Điều khiển tải" }, c: "D" },
+{ id: 20, category: QuizCategory.ELECTRIC, q: "Phát hiện chuyển động:", a: { A: "Độ ẩm", B: "Hồng ngoại PIR", C: "Ánh sáng", D: "Nhiệt độ" }, c: "B" },
+
+{ id: 21, category: QuizCategory.MECHANICAL, q: "Không thuộc cơ khí:", a: { A: "Thợ cơ khí", B: "KTV hàng không", C: "Luyện kim", D: "KTV tự động" }, c: "C" },
+{ id: 22, category: QuizCategory.ELECTRIC, q: "Tai nạn điện xảy ra khi:", a: { A: "Dùng thiết bị", B: "Xây dựng gần cao áp", C: "Sửa điện", D: "Thay bóng" }, c: "B" },
+{ id: 23, category: QuizCategory.ELECTRIC, q: "Bút thử điện gồm:", a: { A: "Đầu + thân", B: "Điện trở + thân", C: "Thân + đèn", D: "Điện trở + đèn" }, c: "D" },
+{ id: 24, category: QuizCategory.ELECTRIC, q: "Vai trò dây dẫn:", a: { A: "Nối và dẫn điện", B: "Bảo vệ", C: "Đóng cắt", D: "Biến đổi năng lượng" }, c: "A" },
+{ id: 25, category: QuizCategory.ELECTRIC, q: "Điện áp VN:", a: { A: "200V", B: "110V", C: "380V", D: "220V" }, c: "D" },
+
+{ id: 26, category: QuizCategory.ELECTRIC, q: "Thứ tự sơ cứu:", a: { A: "2-3-4-1", B: "4-2-3-1", C: "2-4-3-1", D: "1-2-3-4" }, c: "C" },
+{ id: 27, category: QuizCategory.ELECTRIC, q: "Phòng tránh điện mưa bão:", a: { A: "Không đứng gần cột điện", B: "Lại gần dây đứt", C: "Chơi khi ngập", D: "Đứng dưới cây" }, c: "A" },
+{ id: 28, category: QuizCategory.ELECTRIC, q: "Cầu dao tự động:", a: { A: "Đóng mạch", B: "Tắt thiết bị", C: "Tăng dòng", D: "Ngắt khi quá tải" }, c: "D" },
+{ id: 29, category: QuizCategory.ELECTRIC, q: "Truyền dẫn điện:", a: { A: "Biến đổi năng lượng", B: "Dẫn điện", C: "Tạo điện", D: "Đóng cắt" }, c: "B" },
+{ id: 30, category: QuizCategory.ELECTRIC, q: "Dây điện đứt:", a: { A: "Nhặt", B: "Lại gần", C: "Tránh xa báo người lớn", D: "Chạm bằng gỗ" }, c: "C" },
+
+{ id: 31, category: QuizCategory.ELECTRIC, q: "Cứu người điện giật:", a: { A: "Dùng tay kéo", B: "Hô hoán", C: "Kéo ngay", D: "Ngắt điện trước" }, c: "D" },
+{ id: 32, category: QuizCategory.ELECTRIC, q: "Cảm biến ánh sáng:", a: { A: "Báo gas", B: "Tưới nước", C: "Chiếu sáng tự động", D: "Điều khiển nhiệt" }, c: "C" },
+{ id: 33, category: QuizCategory.ELECTRIC, q: "Cầu chì:", a: { A: "Bảo vệ dây", B: "Bảo vệ cầu dao", C: "Bảo vệ mạch", D: "Bảo vệ công tơ" }, c: "C" },
+{ id: 34, category: QuizCategory.ELECTRIC, q: "Quạt tự động:", a: { A: "Nhiệt độ", B: "Hồng ngoại", C: "Ánh sáng", D: "Độ ẩm" }, c: "A" },
+{ id: 35, category: QuizCategory.ELECTRIC, q: "Thứ tự cứu điện:", a: { A: "4-3-1-2", B: "1-2-3-4", C: "3-2-4-1", D: "1-3-4-2" }, c: "C" },
+
+{ id: 36, category: QuizCategory.MECHANICAL, q: "Thay phụ tùng đơn giản:", a: { A: "Thợ cơ khí", B: "Kĩ sư", C: "KTV", D: "Thợ lắp đặt" }, c: "A" },
+{ id: 37, category: QuizCategory.ELECTRIC, q: "Tiếp xúc gián tiếp:", a: { A: "Chạm vỏ rò điện", B: "Gần cao áp", C: "Sét", D: "Chạm trực tiếp" }, c: "A" },
+{ id: 38, category: QuizCategory.MECHANICAL, q: "Truyền xa:", a: { A: "Đai", B: "Bánh răng", C: "Xích", D: "A và B" }, c: "A" },
+{ id: 39, category: QuizCategory.ELECTRIC, q: "Nguồn điện:", a: { A: "Theo điều khiển", B: "Điều khiển", C: "Mang tín hiệu", D: "Cung cấp năng lượng" }, c: "D" },
+{ id: 40, category: QuizCategory.ELECTRIC, q: "Tách nạn nhân:", a: { A: "Gọi người", B: "Kéo tay trần", C: "Vải khô", D: "Ngắt điện + vải" }, c: "D" },
+
+{ id: 41, category: QuizCategory.ELECTRIC, q: "Bút thử điện chạm:", a: { A: "Bóng đèn", B: "Đầu bút", C: "Dây điện", D: "Kẹp kim loại" }, c: "D" },
+{ id: 42, category: QuizCategory.ELECTRIC, q: "Cơ năng:", a: { A: "Nồi cơm", B: "Bàn là", C: "Đèn", D: "Quạt" }, c: "D" },
+{ id: 43, category: QuizCategory.ELECTRIC, q: "Sai an toàn điện:", a: { A: "Ngắt điện khi sửa", B: "Tay ướt cắm điện", C: "Thiết bị tốt", D: "Không tự sửa" }, c: "B" },
+{ id: 44, category: QuizCategory.ELECTRIC, q: "Sau cứu điện:", a: { A: "Nằm thoáng, gọi y tế", B: "Cho uống nước", C: "Hô hấp", D: "Gọi người" }, c: "A" },
+{ id: 45, category: QuizCategory.ELECTRIC, q: "Không an toàn:", a: { A: "Tránh cháy", B: "Ngắt điện", C: "Không dùng dây hỏng", D: "Cắm nhiều thiết bị" }, c: "D" },
+
+{ id: 46, category: QuizCategory.ELECTRIC, q: "Vi phạm khoảng cách:", a: { A: "Tắt điện", B: "Chở cao gần dây", C: "Đứng xa", D: "Dùng đúng" }, c: "B" },
+{ id: 47, category: QuizCategory.MECHANICAL, q: "Vai trò cơ khí:", a: { A: "Năng suất thấp", B: "Năng suất cao", C: "Trì trệ", D: "Phức tạp" }, c: "B" },
+{ id: 48, category: QuizCategory.ELECTRIC, q: "Nguyên nhân tai nạn:", a: { A: "Gián tiếp", B: "Trực tiếp", C: "Khoảng cách cao áp", D: "Không rõ" }, c: "C" },
+{ id: 49, category: QuizCategory.ELECTRIC, q: "Không gồm:", a: { A: "Điều khiển", B: "Truyền dẫn", C: "Nguồn", D: "Tải" }, c: "B" },
+{ id: 50, category: QuizCategory.ELECTRIC, q: "Chức năng truyền dẫn:", a: { A: "Biến đổi", B: "Tạo điện", C: "Đóng cắt", D: "Dẫn điện" }, c: "D" }
 ];
